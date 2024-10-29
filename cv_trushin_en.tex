@@ -1,0 +1,292 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Arseniy} % Your first name
+\familyname{Trushin} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+%\address{m. Sukharevskaya pl, 3, 128}{Moscow, Russia 129090}
+\mobile{+7(916) 588 5156}
+% \phone{+7(495) 694 1520}
+%\fax{(000) 111 1113}
+\email{tarstars@gmail.com}
+\homepage{https://www.linkedin.com/in/arseniy-trushin-5b848736/}{https://www.linkedin.com/in/arseniy-trushin-5b848736/}
+%\homepage{tarsenyss.narod.ru}{tarsenyss.narod.ru} % The first argument 
+%is the url for the clickable link, the second argument is the url displayed in 
+%the template - this allows special characters to be displayed such as the 
+%tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/trushin} % The first bracket is the picture 
+%height, the second is the thickness of the frame around the picture (0pt for 
+%no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+%todo: 
+%*) В списке проектов структурировать про проектам. Для каждого указать, 
+%   в чём были челленджи и достижения.
+%*) Про анализ стихотворений: analyst + software development
+%*) line count - убрать
+%*) про систему навигации по звёздам - для микроконтроллера, жёсткие 
+%       требования, на спутник 
+%*) учебная деятельность - перенести повыше, записать как проект
+%*) выкинуть про книжки
+%*) topcoder - в interests
+%*) скилы - в один список ключевых слов
+%*) operating systems
+
+\section{Academic Qualifications}
+%\textit{GPA -- 4.5}
+\cventry{2001}{Specialist's degree}{Degree in physics, The Physical 
+Faculty of Lomonosov Moscow State University}{Moscow}{}{In specialty 
+``Physics''}
+\cventry{2004}{Ph.D.}{ ``Yb photoluminescence in ZnSe-ZnCdSe films''}{The 
+Physical Faculty of Lomonosov Moscow State University}{Moscow}{In specialty ``Laser Physics''}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Vocational}
+
+\cventry{November 2022 -- now}{Lead Developer}{Yandex Schoolbook}{}{}{}
+
+\cventry{July 2019 --  November 2022}{Senior Programmer}{App in the air}{}{}{}
+
+\cventry{March 2019 -- June 2019}{Lead Programmer}{Joom}{Search department}{}{}
+
+\cventry{March 2018 -- March 2019}{Data Scientist}{HeadHunter}{Search department}{}{}
+
+\cventry{January 2018 -- March 2018}{Lead Analyst}{Equifax}{Credit fraud prevention}{}{}
+
+\cventry{May 2016 -- January 2018}{Programmer}{Yandex}{Search factors development. Search engine support}{}{}
+
+\cventry{May 2015 -- May 2016}{Programmer}{Moscow office of Cadence design 
+systems}{Development of complex software for physical simulation}{}{}
+
+\cventry{May 2009 -- Sep 2014}{Assistant professor}{Physical Department of 
+MSU}{Modeling of acoustical and optical 
+processes in crystals}{}{}
+
+\newpage
+
+\subsection{Programming projects}
+
+\cventry{November 2022 -- now}{Lead Developer}{Yandex Schoolbook}{}{}{
+Main responsibilities include training and estimating the quality of big language models for educational applications.
+\textbf{Challenges} Training large-scale language models and integrating them into educational scenarios.
+\textbf{Achievements}
+\begin{itemize}
+    \item Refactored skill-based statistics for parents and teachers to enhance user experience and provide valuable insights.
+    \item Developed a pipeline for collecting a dataset for an informatics large language model (LLM) tutor, crucial for training effective educational tools.
+    \item Developed and deployed a new metric of quality for this model, improving the assessment of model performance in real-world applications.
+\end{itemize}}
+
+\cventry{July 2019 -  November 2022}{Analytics Department}{App In The Air}{Simulation of users behaviour.
+\textbf{Challenges} Improve performance and code quality of the Python program. 
+\textbf{Achievements} I managed an ``Automatic Insights for airlines'' project from scratch. I implemented the Extrapolating Gradient Boosted Decision Trees algorithm in Golang and applied it for company's data. I proposed several architectural solutions in the user statistics report project. I moved a code of users behaviour simulator from jupyter notebooks to .py files and covered it with unit tests}{}{}
+
+
+\cventry{March 2019 - June 2019}{Factors development}{Joom}{Implementation of algorithms for factors calculations.
+\textbf{Challenges} New languages - Scala and Golang. Fuzzy task on ngram query split. 
+\textbf{Achievements} Scala program for data download were completed as well as Golang part of realtime calculations. Two algorithms proposed: dynamic programming and Byes tokenization
+\textbf{Leave} Due to illness during the trial period}{}{}
+
+\cventry{April 2018 - May 2018}{User clicks prediction}{Pet project}{Tensorflow model was trained for prediction of user click probability distribution for the given screenshot of a browser.
+\textbf{Challenges} Tensorflow was absolutely unknown instrument.
+\textbf{Achievements} Model was trained and evaluated. U-net with the elements of dense-net network architecture was reinvented}{}{}
+
+\cventry{March 2018 - March 2019}{Search engine improvement}{Headhunter}{Implementation of algorithms for factors calculations.
+\textbf{Challenges} Very interesting and clever but mostly undocumented python code.
+\textbf{Achievements} Several enhancements of search engine were implemented.
+\textbf{Leave} Job proposal with better conditions}{}{}
+
+\cventry{January 2018 - March 2018}{Credit Fraud Prevention}{Equifax}{Oracle calculations
+  and testing of factors for credit fraud detection. \textbf{Challenges} I have never written such complex sql queries before.
+\textbf{Achievements} I learn how to write queries for factors calculations and built ML model for credit fraud prediction.
+\textbf{Leave} My ML expertise was not valued at this company.}{}{}
+
+\cventry{May 2016 - January 2018}{Factors development. Search core support}{Yandex}{Map-Reduce calculations
+and testing of behaviorial factors. Support of links data. \textbf{Challenges} A lot to learn: python and
+c++ interfaces for Yandex Map-Reduce technology, search logs formats and access libraries. Legacy C++
+code for links database. \textbf{Achievements} Calculation of several models. Successfull upgrade of links database.
+\textbf{Leave} Job proposal with better conditions}{}{}
+
+\cventry{May 2015 - May 2016}{Randomized field solver}{Cadence}{Random value properties estimation.
+Python script to run and monitore execution of big tasks on inhomegenious computational resources.
+Analyst, software engineer. \textbf{Challenges}: ill-formulated problem for random value properties estimation,
+gradually changing requirements for multi-tasking module. \textbf{Achievements}: 
+most effective statistic methods for the hypotheses testing were found; python module for 
+dependencies resolution and monitoring of tasks execution in nonhomogenious computational
+facilities
+\textbf{Leave} Job proposal with better conditions}{}{}
+
+\cventry{May 2009 - June 2009}{Denoising of optical profilometer picture}{Scientific tool}{ An algorithm of
+signal denoising by averaging in one direction was implemented in C++ and Golang
+\textbf{Challenges} Strict time limitations on development. Lack of convenient versatile instruments like PIL in jupyter notebook
+\textbf{Achievements} Low noise results was obtained from the images}{}{}
+
+\cventry{May 2009 - May 2014}{Beam structure}{Physical Faculty}{Software for simulation 
+of excitation and propagation of acoustical beams in crystalline media. 
+Analyst, software engineer. \textbf{Challenges}: complex math scheme, 3d visualization 
+of calculation results, resource-consuming tasks. \textbf{Achievements}: 
+picturesque opengl-based interactive model of the slowness surface;
+FFT-based scheme for an acoustic field calculation}{}{}
+
+\cventry{2006 - 2009}{Navigation system}{Lebedev Physical Institute}{Star 
+navigation system on satellite}{\textbf{Challenges}: strict resource (time and 
+memory) limitations, \textbf{Achievements}: calculation scheme was translated 
+from IDE to asm; python compiler for assembler was written}{}{}
+
+\cventry{2003-2004}{Rhyme analysis}{}{Analyst, software 
+engineer. \textbf{Challenges}: very fuzzy task specification} 
+{\textbf{Achievements}: strict formulation 
+of algorithms and their implementation}{}{}
+
+\cventry{2001-2003}{X-ray analysis}{}{Analyst, software engineer} 
+{\textbf{Challenges}: uncertain description of interaction between user and 
+program, necessity of serialization of unfinished session}{\textbf{Achievements}: full 
+specification of user interaction and GUI was devised and implemented; object 
+model of data was constructed; file format for session serialization was 
+proposed}{}
+
+\cventry{1996--2001}{Student}{Physical Faculty of Moscow State 
+University}{Diploma projects ``Diffraction of X-rays on crystals deformed by 
+ion-implantation '', ``Alignment of retina-scans''} {\textbf{Challenges}: no 
+strict task description} {\textbf{Achievements}: full task description was 
+proposed, task was implemented} {}
+
+
+%-------------------------------------------------------------------------------
+%---------
+%	AWARDS SECTION
+%-------------------------------------------------------------------------------
+---------
+%\section{Awards}
+
+%\cvitem{2004}{Fenia Berz Award}
+%\cvitem{2010}{``The best presentation on the conference'' - Coherent Optics 
+%and 
+%Optical Spectroscopy}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+\section{Computer skills}
+
+% win32api, mfc, html, R,
+%
+\cvitem{Keywords}{c++, golang, python, git, svn, perforce, stl, bash,  
+ssh, qt, povray, opengl, scipy, pandas, numpy, sklearn}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Communication Skills}
+
+\cvitem{2000-2014}{Over 20 oral presentations at different conferences 
+including 4 international conferences with English presentations}
+
+%-------------------------------------------------------------------------------
+%---------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Russian}{Mothertongue}{}
+\cvitemwithcomment{English}{Intermediate}{Reading fluent, Conversationally 
+fluent}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Miscellaneous}
+\cvitem{Topcoder login}{142857}
+\cvitem{Machine Learning}{Vorontsov's course in ``School of data analysis''. Express course of Mehryar Mohri in Yandex.}
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+I like to ride my bike with planetary gearbox. I have canon 1000d camera and 
+sometimes I use it ;)  
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % 
+%Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

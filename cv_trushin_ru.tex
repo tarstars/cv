@@ -1,0 +1,241 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Арсений} % Your first name
+\familyname{Трушин} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Резюме}
+\address{Малая Сухаревская пл., 3, 128}{Москва, Россия 129090}
+\mobile{+7(916) 588 5156}
+\phone{+7(495) 694 1520}
+%\fax{(000) 111 1113}
+\email{tarstars@gmail.com}
+\homepage{tarsenyss.narod.ru}{tarsenyss.narod.ru} % The first argument 
+%is the url for the clickable link, the second argument is the url displayed in 
+%the template - this allows special characters to be displayed such as the 
+%tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/trushin} % The first bracket is the picture 
+%height, the second is the thickness of the frame around the picture (0pt for 
+%no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Образование}
+%\textit{GPA -- 4.5}
+%Arguments not required %can 
+%be left empty
+\cventry{1996--2001}{Студент}{Физический факультет МГУ 
+им М.В. Ломоносова}{Москва}{}{Специальность - физика}
+\cventry{2001-2004}{Аспирант}{Физический факультет МГУ 
+им. М.В. Ломоносова}{Москва}{}{Специальность - лазерная физика}
+
+\section{Диплом к.ф.-м.н.}
+
+\cvitem{Название}{\emph{Фотолюминесценция иттербия в полопроводниковых 
+структурах и наноструктурах ZnSe-ZnCdSe}}
+\cvitem{Научный руководитель}{Коннов В.М.}
+\cvitem{Описание}{Были оптимизированы условия проведения ионной 
+имплантации с последующим отжигом для получения максимально полного 
+восстановления кристаллического совершенства материала и наибольшей 
+интенсивности излучения в инфракрасном диапазоне ионов иттербия.}
+\cvitem{Дата}{Март 2004}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Опыт}
+
+\subsection{Работы}
+
+\cventry{2004--н.в.}{научный сотрудник}{\textsc{ФИАН им. 
+П.Н. Лебедева}}{Москва}{}{Разработка программного обеспечения для 
+автоматизации эксперимента нахождения C-V характеристик, 
+проведение экспериментального исследования катодо- и фото- люминесценции 
+полупроводниковых и алмазных структурю}
+%------------------------------------------------
+
+\cventry{2009--2014}{ассистент}{\textsc{Физический 
+факультет МГУ им. М.В. Ломоносова}}{Москва}{}{Моделирование акустических и 
+оптических процессов в кристаллах.}
+
+%------------------------------------------------
+\newpage
+
+\subsection{Написанные программы}
+
+\cventry{1996--2001}{Студент}{Физический факультет}{}{}{Несколько типичных для 
+Физического Факультета МГУ проектов, таких как ``Эллипсоид инерции'', 
+``Задача трёх тел'', ``Дифракция рентгеновского излучения на кристалле, 
+деформированном ионной имплантацией'', ``Совмещение снимков сетчатки глаза''. 
+В каждом из этих проектов было несколько сот строк кода. Это были программы 
+под Windows с графическим интерфейсом пользователя. Keywords: win32api, 
+mfc, numeric modeling, c++. }
+
+\cventry{2001-2003}{Анализ рентгеновских спектров}{}{}{}{Разработка 
+программного обеспечения для определения состава образца по спектру его 
+рентгеновской люминесценции. Задачи: разработка технического задания на 
+программу, математическое моделирование, разработка GUI, реализация. 
+Keywords: win32api, mfc, c++. 
+Примерное количество строк \(\approx\) 20000}
+
+
+\cventry{2003-2004}{Анализ стихотворение}{}{}{}{Написание технического задания, 
+разработка алгоритмов по приблизительным формулировкам заказчика, разработка 
+GUI, Реализация. Keywords: win32api, mfc, c++, com, VBA. Примерное количество 
+строк \(\approx\) 10000}
+
+\cventry{2004-н.в.}{Пользователь линукса}{}{}{}{Я знаком с такими операционными 
+системами как Fedora и Ubuntu. Последние семь лет использую Gentoo.}
+
+\cventry{2005-2006}{Артезио}{}{}{}{Разработчик программного обеспечения в 
+проекте фирмы Телкордия в фирме Артезио. Keywords: ssh, unix, c++, 
+vim}
+
+\cventry{2006-2009}{ФИАН}{}{}{}{Разработка нескольких инструментов для научных 
+исследований, например, усреднение данных оптической профилометрии 
+(C++, golang, \(\approx1000\) строк кода ); система навигации по звёздам 
+(python, IDE, c++, asm)} 
+
+\cventry{2009-2014}{Физический факультет МГУ им. М.В. 
+Ломоносова}{}{}{}{Разработка программного обеспечения для 
+вычислениях характеристик объёмных, однородных и неоднородных волн в 
+анизотропных средах. Моделирование процессов возбуждения и 
+распространения акустических пучков в кристаллах. Решаемые задачи: постановка 
+задачи, разработка математической модели, разработка архитектуры программы, 
+реализация. Keywords: Qt, STL, C++, golang, povray, 
+opengl, git.} 
+
+\cventry{2010}{Каталог статей}{}{}{}{Сервер на Python для отображения 
+локального архива статей}
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Награды}
+
+\cvitem{2004}{Премия Фени Берц}
+\cvitem{2010}{``Лучший доклад конференции'' - Школа по когерентной оптике и 
+оптической спектроскопии}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Знание компьютерных технологий}
+
+%\cvitem{Basic}{\textsc{java}, Adobe Illustrator}
+\cvitem{Intermediate}{golang, python, git, win32api, mfc, bash, html}
+\cvitem{Advanced}{C++}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Навыки общения}
+
+\cvitem{2000-2014}{Свыше 20 устных докладов на различных конференциях 
+включая 4 международных конференции с докладами на Английском языке}
+
+%-------------------------------------------------------------------------------
+%---------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Russian}{Родной}{}
+\cvitemwithcomment{English}{Intermediate}{Беглое чтение, беглый разговор}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Разное}
+\cvitem{2010-2014}{Вёл курс ``C++ в задачах акустооптики и оптоэлектроники''}
+\cvitem{Topcoder login}{142857}
+\cvitem{Знаком с книгами}{ ``Программирование: теоремы и задачи'', А. Шень; 
+``Алгоритмы: построение и анализ'', Кормен, Лейзерсон}
+
+\section{Интересы}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+Люблю кататься на своём велосипеде с планетарной коробкой переключения передач. 
+Ещё есть фотоаппарат Canon 1000d. Иногда даже им пользуюсь ;)
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % 
+%Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
