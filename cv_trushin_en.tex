@@ -48,11 +48,7 @@
 % \phone{+7(495) 694 1520}
 %\fax{(000) 111 1113}
 \email{tarstars@gmail.com}
-\homepage{https://www.linkedin.com/in/arseniy-trushin-5b848736/}{https://www.linkedin.com/in/arseniy-trushin-5b848736/}
-%\homepage{tarsenyss.narod.ru}{tarsenyss.narod.ru} % The first argument 
-%is the url for the clickable link, the second argument is the url displayed in 
-%the template - this allows special characters to be displayed such as the 
-%tilde in this example
+\homepage{www.linkedin.com/in/tarstars}{www.linkedin.com/in/tarstars}
 %\extrainfo{additional information}
 \photo[70pt][0.4pt]{pictures/trushin} % The first bracket is the picture 
 %height, the second is the thickness of the frame around the picture (0pt for 
@@ -98,7 +94,9 @@ Physical Faculty of Lomonosov Moscow State University}{Moscow}{In specialty ``La
 
 \subsection{Vocational}
 
-\cventry{November 2022 -- now}{Lead Developer}{Yandex Schoolbook}{}{}{}
+\cventry{August 2025 -- now}{Lead Developer}{Yandex Delivery}{Agentic system for support operators}{}{}
+
+\cventry{November 2022 -- August 2025}{Lead Developer}{Yandex Schoolbook}{}{}{}
 
 \cventry{July 2019 --  November 2022}{Senior Programmer}{App in the air}{}{}{}
 
@@ -117,18 +115,44 @@ systems}{Development of complex software for physical simulation}{}{}
 MSU}{Modeling of acoustical and optical 
 processes in crystals}{}{}
 
-\newpage
+\section{Teaching and Supervision}
+
+\cvitem{2025}{Taught a course on Machine Learning at Russian-Armenian University (RAU).}
+
+\cvitem{2025}{Supervised four graduate theses:
+  \begin{itemize}
+    \item \textit{Uncompromised efficiency of the linear heuristics} (Russian-Armenian University)
+    \item \textit{SOTA for airline traffic in the USA} (Russian-Armenian University)
+    \item \textit{How to train your LLM to play QUIXO} (Moscow Institute of Physics and Technology)
+    \item \textit{Teaching LLM to play QUIXO} (Moscow Institute of Physics and Technology)
+  \end{itemize}
+}
 
 \subsection{Programming projects}
 
-\cventry{November 2022 -- now}{Lead Developer}{Yandex Schoolbook}{}{}{
+\cventry{August 2025 -- now}{Lead Developer}{Yandex Delivery}{Agentic system for support operators}{}{
+ Working on an agentic system that helps support operators use internal manuals and resolve user requests. \textbf{Achievements}
+ \begin{itemize}
+    \item \textbf{Product research and specification}: Translated an ambiguous product request into a clear, actionable task specification through product research and scenario analysis.
+    \item \textbf{LLM-powered manual conversion}: Converted 150 support manuals into graph-based descriptions using LLM-powered agents, making manual knowledge easier to structure, validate, and use in agentic workflows.
+    \item \textbf{Workflow acceleration}: Delivered a 2x speedup in the manual conversion workflow.
+    \item \textbf{Production application}: Implemented the approach as a production-grade web-based agentic application and supported colleagues in integrating it into their workflow.
+ \end{itemize}
+}
+
+\cventry{November 2022 -- August 2025}{Lead Developer}{Yandex Schoolbook}{}{}{
  Main responsibilities include training and evaluating large language models (LLMs) for educational applications, leading projects, and enhancing existing systems. \textbf{Achievements}
  \begin{itemize}
+    \item \textbf{Metrics for R\&D Projects}:  Designed and led a 3-month R\&D project involving 7 contributors and 25+ tickets. The project aimed to correlate user satisfaction metrics (likes/dislikes) with offline quality benchmarks for three LLM use cases (\textit{explain terms}, \textit{debug code}, \textit{dialogs}, 150k MAU total, $\sim$3k MAU per scenario).  Found that a simple filter in \textit{explain terms} boosted likes/dislikes by +9\%; model retraining in \textit{debug code} improved offline quality from 68\% to 87\% (+19\%) and also raised likes/dislikes by +9\%. Identified key pain points in \textit{dialogs} (identity confusion, cyclic behavior) with fixes projected to improve feedback by +7\%.
+    \item \textbf{Processed and implemented a product request}: triaged user scenarios.
+    \item \textbf{LLM Assessment and Reassesment for Unified State Exams}: Created a basket of 105 tasks and a method of model's evaluation. Conducted an evaluation for an internal LLM and repeated it one year later for an updated version. Results of these evaluations was used to estimate viability of department projects. Led a team of two members.
+    \item \textbf{Math Tutor Technology Rollout for EGE Platform}: Led the deployment of a new dialog-based tutoring technology for the Unified State Exam platform. Coordinated task ingestion, software development, offline evaluation, and online A/B testing. Resulted in +21\% gain (72\% $\rightarrow$ 93\%) on offline Hanmigo-style dialog metrics; dialogs in the platform now run on the new infrastructure.
+    \item \textbf{Created a fallback model for production}: prepared datasets (auto/manual annotation), trained models, ran quality evaluations, and prepared deployment materials.
+    \item \textbf{Developed a synthetic dialogue generator} to create artificial dialog datasets for LLM pretraining and evaluation.
+    \item \textbf{Dialog estimation application} Python + QT application for chatting with LLM and evaluating the results of the chat. It's the first version of the program the team has been using for two years.
     \item \textbf{Organized ML Artifacts Storage System}: Implemented a centralized system for storing machine learning artifacts within the team, improving collaboration and efficiency in model development and deployment.
-    \item \textbf{LLM Quality Assessment Project Lead}: Led a project to collect data for assessing LLM quality across various educational tasks, including school mathematics, informatics, and olympiad problems. Clarified project objectives, defined the methodology, and managed a mini-team of two members.
     \item \textbf{EGE Debugging Initiative}: Proposed a methodology for collecting evaluation and training datasets for LLMs related to the Unified State Exam (EGE). Established processes for result evaluation and introduced a new quality metric to improve model assessment.
-    \item \textbf{Refactored Skill-Based Statistics}: Improved skill-based statistics for parents and teachers, enhancing user experience and providing valuable insights into student performance.
-    \item \textbf{Skill Graph Refactoring}: Analyzed and refactored a legacy algorithm for the skill graph module. Rewrote the system using modern technologies and integrated it with a new data source, enhancing performance and maintainability.
+    \item \textbf{Skill Graph Refactoring}: Analyzed and refactored a legacy algorithm for the skill graph module. Rewrote the system using modern technologies and integrated it with a new data source, enhancing performance and maintainability. Data freshness: 20 hours -> 2 hours.
     \item \textbf{'Success Rate' Analytical Project}: Conducted an analytical project to compute 'Success Rate' metrics by analyzing logs of student activity. Tested the hypothesis that the number of successfully solved tasks differs between mobile and desktop platforms, providing insights for platform optimization.
  \end{itemize}
 }
@@ -250,7 +274,7 @@ including 4 international conferences with English presentations}
 \section{Languages}
 
 \cvitemwithcomment{Russian}{Mothertongue}{}
-\cvitemwithcomment{English}{Intermediate}{Reading fluent, Conversationally 
+\cvitemwithcomment{English}{Upper Intermediate}{Reading fluent, Conversationally
 fluent}
 
 %----------------------------------------------------------------------------------------
